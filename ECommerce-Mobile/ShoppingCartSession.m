@@ -90,7 +90,7 @@
             NSDictionary *cookieProps = [cookie properties];
             routeId = [cookieProps objectForKey:NSHTTPCookieValue];
         }
-
+        [ADEumInstrumentation reportMetricWithName:@"CookieID" value:i];
     }
     
         
