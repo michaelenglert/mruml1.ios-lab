@@ -101,6 +101,7 @@
         NSLog(@"Logged in session id is %@", sessionId);
     [ADEumInstrumentation setUserData:@"User ID" value:appDelegate.username];
     [ADEumInstrumentation startTimerWithName:@"LoginToLogout"];
+    [ADEumInstrumentation leaveBreadcrumb:@"something"];
     [ADEumInstrumentation endCall:tracker];
 }
 
