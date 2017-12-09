@@ -44,7 +44,6 @@
 }
 -(void) logout {
     sessionId = nil;
-    [ADEumInstrumentation stopTimerWithName:@"LoginToLogout"];
 }
 
 -(void) login {

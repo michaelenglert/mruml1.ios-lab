@@ -8,6 +8,7 @@
 
 #import "CheckoutRequest.h"
 #import "AppDelegate.h"
+#import <ADEUMInstrumentation/ADEUMInstrumentation.h>
 
 @implementation CheckoutRequest
 @synthesize checkoutResponse;
@@ -39,6 +40,7 @@
         checkoutResponse = [NSString stringWithUTF8String:"Could not connect to the server"];
     else
         checkoutResponse = [NSString stringWithUTF8String:responseBytes];
+    [ADEumInstrumentation stopTimerWithName:@"LoginToLogout"];
 }
 
 
