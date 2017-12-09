@@ -18,7 +18,7 @@
 			<key>KeyboardType</key>
 			<string>URL</string>
 			<key>DefaultValue</key>
-			<string>http://ec2-54-203-78-38.us-west-2.compute.amazonaws.com/appdynamicspilot/</string>
+			<string>http://ecommercedockerhos-michaelmruml1-fmekfua1.srv.ravcloud.com/appdynamicspilot/</string>
 			<key>Type</key>
 			<string>URL</string>
 			<key>Title</key>
@@ -42,7 +42,7 @@
 			<key>Key</key>
 			<string>username</string>
 			<key>DefaultValue</key>
-			<string>test</string>
+			<string>aleftik</string>
 		</dict>
 		<dict>
 			<key>IsSecure</key>
@@ -56,7 +56,7 @@
 			<key>Key</key>
 			<string>password</string>
 			<key>DefaultValue</key>
-			<string>appdynamics</string>
+			<string>aleftik</string>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -72,7 +72,7 @@
 			<key>Key</key>
 			<string>collectorUrl</string>
 			<key>DefaultValue</key>
-			<string>http://54.244.95.83:9001</string>
+			<string>http://col.eum-appdynamics.com</string>
 			<key>KeyboardType</key>
 			<string>URL</string>
 		</dict>
@@ -84,7 +84,7 @@
 			<key>Key</key>
 			<string>appKey</string>
 			<key>DefaultValue</key>
-			<string>DEMO-AAB-AUU</string>
+			<string>AD-AAB-AAF-YUE</string>
 		</dict>
 	</array>
 	<key>StringsTable</key>

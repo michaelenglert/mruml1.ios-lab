@@ -5,7 +5,7 @@
 //  Created by Adam Leftik on 6/24/13.
 //  Copyright (c) 2013 Adam Leftik. All rights reserved.
 //
-
+#import <ADEUMInstrumentation/ADEUMInstrumentation.h>
 #import "AppDelegate.h"
 
 #import "MasterViewController.h"
@@ -37,6 +37,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [ADEumInstrumentation initWithKey:@"AD-AAB-AAF-YUE"];
     NSSetUncaughtExceptionHandler(&HandleExceptions);
     
     [[NSNotificationCenter defaultCenter] addObserver:self
