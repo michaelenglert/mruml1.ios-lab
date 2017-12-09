@@ -47,7 +47,6 @@
 }
 
 -(void) login {
-    id tracker = [ADEumInstrumentation beginCall:self selector:_cmd];
     NSLog(@"LOGME IN");
     NSURL *theUrl = [NSURL URLWithString:url];
     NSMutableURLRequest *request=[NSMutableURLRequest requestWithURL:theUrl
@@ -99,7 +98,6 @@
         NSLog(@"Logged in expires on %@", expiresOn);
         NSLog(@"Logged in session id is %@", sessionId);
     [ADEumInstrumentation setUserData:@"User ID" value:appDelegate.username];
-    [ADEumInstrumentation endCall:tracker];
 }
 
 -(id) initWithURLString: (NSString*) path {
